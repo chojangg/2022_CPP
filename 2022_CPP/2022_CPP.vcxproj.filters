@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="00 C++기본.cpp">
+    <ClCompile Include="09 포인터 연산.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
