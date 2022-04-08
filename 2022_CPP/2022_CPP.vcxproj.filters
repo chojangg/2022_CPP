@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02-05 함수 오버로딩.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="02-05.cpp">
+    <ClCompile Include="02-07 string 덧붙이기%28append%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
