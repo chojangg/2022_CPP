@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02-10 string 시작주소.cpp" />
-    <ClCompile Include="03-01 class 기본생성자.cpp" />
+    <ClCompile Include="03-01 class 생성자.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="02-05.h" />
