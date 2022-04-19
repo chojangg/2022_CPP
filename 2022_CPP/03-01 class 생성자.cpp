@@ -21,14 +21,14 @@ Student::Student()
 {
 	nHakbun = 1234;
 	sName = "이사랑";
-	cout << "학번이 등록되었습니다 히히힛 (*°▽ °*)" << endl;
+	cout << "학번이 등록되었습니다" << endl;
 }
 
 Student::Student(int Hakbun, string Name)
 {
 	nHakbun = Hakbun;
 	sName = Name;
-	cout << "학번이 등록되었습니다 히히힛 (*°▽ °*)" << endl;
+	cout << "학번이 등록되었습니다" << endl;
 }
 void Student::show()
 {
@@ -40,7 +40,7 @@ int main(void) {
 	Student stu1 = Student();
 	stu1.show();
 
-	Student stu2 = Student(1111, "BSY");
+	Student stu2 = Student(1111, "Hihi");
 	stu2.show();
 
 	return 0;
