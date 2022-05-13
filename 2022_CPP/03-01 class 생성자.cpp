@@ -42,19 +42,10 @@ void Student::show()
 
 int main(void)
 {
-	//Student stu1 = Student();
-	//stu1.show();
+	Student* stu2 = new Student(1111, "JWP");
+	stu2->show();
 
-	//Student stu2 = Student(1111, "JWP");
-	//stu2.show();
-
-	int* ptr2 = new int[4];
-	for (int i = 0; i < 4; i++) {
-		ptr2[i] = 10 + i;
-		cout << ptr2[i] << " ";
-	}
-
-	delete[]ptr2;
+	delete stu2;
 
 	return 0;
 
