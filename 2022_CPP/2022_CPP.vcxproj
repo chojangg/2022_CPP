@@ -22,7 +22,10 @@
     <ClCompile Include="03-01 class 생성자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="소스1.cpp" />
+    <ClCompile Include="소스1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="02-05.h" />
