@@ -27,6 +27,9 @@
     <ClCompile Include="깊은복사_2112.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="교과서 130쪽 2번문제.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="02-05.h">
