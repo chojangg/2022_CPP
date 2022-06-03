@@ -1,5 +1,5 @@
 #include <iostream>	// cout, endl 사용
-#include <string.h>	// strcpy() 사용
+#include <string.h>	// strcpy() 사용 
 
 using namespace std;
 
