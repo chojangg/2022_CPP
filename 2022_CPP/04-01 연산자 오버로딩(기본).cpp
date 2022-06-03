@@ -12,7 +12,7 @@ private:
 	
 };
 
-Point::Point(int m_X, int m_Y) : mX(m_X), mY(m_Y) {}
+Point::Point(int _x, int _y) : mX(_x), mY(_y) {}
 
 int main(void)
 {
