@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04-01 연산자 오버로딩(기본).cpp">
+    <ClCompile Include="04-02 연산자 오버로딩(연습문제).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="04-02 연산자 오버로딩(연습문제).cpp" />
-    <ClCompile Include="04-02.cpp" />
+    <ClCompile Include="04-02.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04-03 대입연산자 오버로딩.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="04-02.h" />
