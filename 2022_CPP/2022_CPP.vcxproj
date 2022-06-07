@@ -23,9 +23,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="04-02 연산자 오버로딩(연습문제).cpp" />
+    <ClCompile Include="04-02.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="04-01.h" />
+    <ClInclude Include="04-02.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
