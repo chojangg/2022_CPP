@@ -24,6 +24,9 @@
     <ClCompile Include="04-03 대입연산자 오버로딩.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="176풀어보기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="04-02.h">
