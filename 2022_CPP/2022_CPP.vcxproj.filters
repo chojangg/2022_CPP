@@ -30,6 +30,9 @@
     <ClCompile Include="06-01 다형성기본.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="06-02 virtual소멸자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="04-02.h">
