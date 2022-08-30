@@ -26,9 +26,15 @@ public:
 };
 
 void main(void) {
-	Animal animal;
-	animal.roar();	// "µ¿¹°Â¢¾î"
+	Animal* animal = new Animal();
+	animal->roar();	// "µ¿¹°Â¢¾î"
+	delete animal;
 
-	Dog dog;
-	dog.roar();		// "¸Û¸Û"
+	animal = new Tiger();	// "µ¿¹°Â¢¾î" (¾îÈïx)
+	animal->roar();
+	delete animal;
+
+	animal = new Dog();		// "µ¿¹°Â¢¾î" (¸Û¸Ûx)
+	animal->roar();
+	delete animal;
 }
