@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04-02.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="04-02 연산자 오버로딩(연습문제).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -28,6 +25,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="00 - 1학기 수행평가3_학번이름.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="06-01 다형성기본.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
