@@ -22,7 +22,10 @@
     <ClCompile Include="06-03 순수가상함수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="07-01 함수템플릿.cpp" />
+    <ClCompile Include="07-01 함수템플릿.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="07-02 클래스 탬플릿.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="00 - 클래스 설계.h" />

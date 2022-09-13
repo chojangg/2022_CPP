@@ -21,6 +21,9 @@
     <ClCompile Include="07-01 함수템플릿.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="07-02 클래스 탬플릿.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="04-02.h">
