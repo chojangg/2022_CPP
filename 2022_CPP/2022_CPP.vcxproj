@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08-01 동적배열.cpp" />
+    <ClCompile Include="08-02 map.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="00 - 클래스 설계.h" />
