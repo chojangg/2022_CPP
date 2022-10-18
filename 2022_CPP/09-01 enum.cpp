@@ -3,26 +3,31 @@
 
 using namespace std;
 
+enum Food {
+	KOREAN,
+	JAPANESE,
+	CHINESE
+};
+
 void main(void)
 {
 	string food_spot[3];
 
-	food_spot[0] = "삼백집";
-	food_spot[1] = "야키토리 묵";
-	food_spot[2] = "태화장";
+	food_spot[Food::KOREAN] = "삼백집";
+	food_spot[Food::JAPANESE] = "야키토리 묵";
+	food_spot[Food::CHINESE] = "태화장";
 
 	cout << "맛집리스트" << endl;
-
-	int menu = 1;
+	int menu = Food::KOREAN;
 	switch (menu)
 	{
-	case 0:
+	case Food::KOREAN:
 		cout << "한식: ";
 		break;
-	case 1:
+	case Food::JAPANESE:
 		cout << "일식: ";
 		break;
-	case 2:
+	case Food::CHINESE:
 		cout << "중식: ";
 		break;
 	}
