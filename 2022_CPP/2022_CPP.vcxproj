@@ -23,7 +23,7 @@
     <ClInclude Include="04-02.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08-02 map.cpp" />
+    <ClCompile Include="09-03 static 멤버변수.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
